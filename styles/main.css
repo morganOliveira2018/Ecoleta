@@ -1,0 +1,55 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smooting: antialiased;
+}
+
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+/* BOX MODEL
+
+Modelo de caixa
+Toda caixa tem:
+1 - Largura, altura, espaçamento, preenchimentos
+2 - Bordas, cor, fundo, maneira que é vista pelo html (display)
+
+*/
+
+/* Por fora o header é block e internamente é flex os filhos */
+#page-home{
+    height: 100vh;
+
+    background: url('../assets/home-background.svg') no-repeat;
+    
+    background-position: 35vw bottom;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--title-color);
+    font-family: Ubuntu, sans-serif;
+}
+
+* {  
+    /* Referencia todos os seletores */
+    margin: 0;
+    padding: 0;
+    /* Pesquisar diferença entre 'border-box' & 'content-box' */
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
